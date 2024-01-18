@@ -23,6 +23,8 @@ npm run lint
 1. The URL in fstab.yaml file will always follow the structure: https://dita-franklin-worker.adobeaem.workers.dev/{your_github_user_name}/{git_repository_name}/{branch_name}/{root_folder_name}
 1. Add the [AEM Code Sync GitHub App](https://github.com/apps/aem-code-sync) to the repository
 1. Create a Github App and give it all the repository permission(read and write or admin, whatever applicable highlest level permission is there), and install it on your repository.
+1. Create Edge delivery service profile in AEM Guides.
+1. Create Edge delivery service preset in AEM Guides and publish using the profile created in the previous step. This will add some sample data to your environment.
 1. Install the [AEM CLI](https://github.com/adobe/aem-cli): `npm install -g @adobe/aem-cli`
 1. Start AEM Proxy: `aem up` (opens your browser at `http://localhost:3000`)
 1. Open the `{repo}` directory in your favorite IDE and start coding :)
